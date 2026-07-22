@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #4a90e2;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Spacing */
+section {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Skills Cards */
+.skills-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.skill-card:hover {
+    background-color: #2d6bb3;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Contact Form */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+/* Responsive Design */
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Container */
+.container {
+    width: 100%;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
