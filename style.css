@@ -107,3 +107,32 @@ img {
         margin: auto;
     }
 }
+
+/* Paste the new code below this line */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header,
+.dark-mode nav,
+.dark-mode footer,
+.dark-mode section {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+#themeBtn {
+    margin: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+#themeBtn:hover {
+    background-color: #555;
+}
